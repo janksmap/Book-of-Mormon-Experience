@@ -31,23 +31,23 @@ let scriptureList = {
         },
 
         {
-            verse: '2 Nephi 4:28',
-            scripture: '"Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul."'
+            verse: 'Mosiah 4:27',
+            scripture: '"And see that all these things are done in wisdom and aorder; for it is not requisite that a man should run bfaster than he has strength. And again, it is expedient that he should be diligent, that thereby he might win the prize; therefore, all things must be done in order."'
         },
 
         {
-            verse: '2 Nephi 4:28',
-            scripture: '"Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul."'
+            verse: 'Helaman 3:27',
+            scripture: '"Thus we may see that the Lord is merciful unto all who will, in the sincerity of their hearts, call upon his holy name."'
         },
 
         {
-            verse: '2 Nephi 4:28',
-            scripture: '"Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul."'
+            verse: 'Alma 37:35',
+            scripture: '"O, remember, my son, and alearn bwisdom in thy cyouth; yea, learn in thy youth to keep the commandments of God."'
         },
 
         {
-            verse: '2 Nephi 4:28',
-            scripture: '"Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul."'
+            verse: 'Helaman 13:11',
+            scripture: '"But if ye will repent and areturn unto the Lord your God I will turn away mine anger, saith the Lord; yea, thus saith the Lord, blessed are they who will repent and turn unto me, but wo unto him that repenteth not."'
         }
     ]
 };

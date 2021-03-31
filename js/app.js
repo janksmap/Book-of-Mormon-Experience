@@ -1,3 +1,5 @@
+let currentScripture
+
 function start() {
     let audio = new Audio('../media/ambient-piano.mp3');
     audio.volume = 0.5;
@@ -14,16 +16,26 @@ function start() {
 
     let randomNumber = (Math.random()) * 10;
     randomNumber = Math.floor(randomNumber);
-    console.log(randomNumber);
     let scriptureToDisplay = scriptureList.list[randomNumber].scripture;
     let verseToDisplay = scriptureList.list[randomNumber].verse;
 
-    console.log(scriptureToDisplay);
-    console.log(verseToDisplay);
     let scriptureDiv = document.getElementById('scripture');
     let verseDiv = document.getElementById('verse');
     scriptureDiv.innerText = scriptureToDisplay;
     verseDiv.innerText = verseToDisplay;
 
+    document.getElementById('refresh').style.display = 'flex';
     document.getElementById('downloadMusic').style.display = 'block';
+}
+
+function refresh() {
+    let randomNumber = (Math.random()) * 10;
+    randomNumber = Math.floor(randomNumber);
+    let scriptureToDisplay = scriptureList.list[randomNumber].scripture;
+    let verseToDisplay = scriptureList.list[randomNumber].verse;
+
+    let scriptureDiv = document.getElementById('scripture');
+    let verseDiv = document.getElementById('verse');
+    scriptureDiv.innerText = scriptureToDisplay;
+    verseDiv.innerText = verseToDisplay;
 }
