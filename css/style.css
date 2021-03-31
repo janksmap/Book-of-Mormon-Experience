@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#loading {
+    width: 70%;
+    height: 70%;
+    margin: 100px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#loading p {
+    margin: 200px auto 50px;
+}
+
+#start {
+    margin-bottom: 50px;
+}
+
+.colors {
+    background-image: linear-gradient(to bottom right, lightblue, darkblue);
+    opacity: 100%;
+    transition: opacity 3s ease-in;
+}
+
+#mainContainer {
+    width: 70%;
+    height: 70%;
+    margin: 100px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: none;
+    text-align: center;
+}
+
+#subtext {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#scriptureContainer {
+    width: 85%;
+    height: 50%;
+    margin: auto;
+}
+
+#scripture {
+    margin-top: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#verse {
+    font-size: 1.5em;
+}
+
+hr {
+    width: 65%;
+}
+
+#downloadMusic {
+    width: 125px;
+    margin: auto;
+    display: none;
+}
